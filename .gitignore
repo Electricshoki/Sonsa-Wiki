@@ -1,0 +1,12 @@
+# Node modules (React)
+node_modules/
+build/
+
+# Python venv
+venv/
+.venv/
+
+# Django/IDE
+__pycache__/
+*.pyc
+.idea/

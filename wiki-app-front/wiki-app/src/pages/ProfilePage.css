@@ -1,0 +1,110 @@
+.profile-page {
+  font-weight:lighter;
+  margin-top: 60px;
+  padding: 2rem;
+  max-width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;           /* 폰트 크기 ↑ */
+  line-height: 1.6;            /* 줄 간격 ↑ */
+  color: #222;                 /* 가독성 좋은 색 */
+
+  box-shadow: 0 5px 8px rgba(0,0,0,0.08);  /* 입체감 */
+}
+
+.profile-page h2 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.profile-page section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-page ul {
+  font-size: 1.1rem; 
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-page li { /*위랑 아래 내용은 목차 내용임*/
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.profile-page section ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-page section li {
+  margin-bottom: 0.5rem;
+  line-height: 2.3;
+}
+
+.toc-box li { /*이 친구 목차임*/
+  padding: 0.3rem 0;
+  font-size: 1.2rem;
+  padding-left: 1.5rem !important; /* 무지성 들여쓰기.. 이거는 강제해도 될 듯.*/
+}
+
+
+.toc-box a.toc-number {
+  color: #007bff;  /*일단 파란색*/
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 0.4rem;
+} /*하이퍼 링크용*/
+
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.toc-box {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 6px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.toc-box ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.toc-box li {
+  padding: 0.2rem 0;
+}
+
+.toc-box a {
+  color: #333;
+  text-decoration: none;
+}
+
+.toc-box a:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+} /*부드러운 이동.*/
+
+.toc-number:hover {
+  text-decoration: underline;
+}
